@@ -5,7 +5,14 @@ const Box = (props) => {
   return (
     <div className='box'>
         <h1>{props.title}</h1>
-        <img className='item-img' src={props.item && props.item.img} alt=''/>
+        <div style={{
+            width: "400px",
+            height: "400px",
+            backgroundImage: `url(${props.item && props.item.img})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        ></div>
         <h2>WIN</h2>
     </div>
   )
