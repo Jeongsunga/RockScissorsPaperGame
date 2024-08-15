@@ -68,7 +68,7 @@ function App() {
         <Box title="Computer" item={computerSelect} result={result}/>
       </div>
       <div className='main'>
-        <div class="d-grid gap-2 col-7 mx-auto">
+        <div className="d-grid gap-2 col-7 mx-auto">
           <button onClick={()=>play("scissors")} type="button" class="btn btn-outline-primary">가위</button>
           <button onClick={()=>play("rock")} type="button" class="btn btn-outline-primary">바위</button>
           <button onClick={()=>play("paper")} type="button" class="btn btn-outline-primary">보</button>
