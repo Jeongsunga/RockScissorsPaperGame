@@ -1,7 +1,7 @@
 <p align="center">
 <img width="70%" alt="Image" src="https://github.com/user-attachments/assets/b3cab867-aeb6-4ae1-b913-a013b00f2c91" />
 </p>
-### 유저 스토리
+###유저 스토리
 1. 유저는 박스 두 개를 볼 수 있다. (타이틀, 사진, 결과)  
 2. 유저는 박스 하단에 가위바위보 버튼을 볼 수 있다.  
 3. 버튼을 클릭하면 클릭한 아이템이 유저 박스에 보인다.  
